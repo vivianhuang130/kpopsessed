@@ -1,94 +1,28 @@
-*, *:before, *:after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+h1, .h1 {
+  font-size:160%;
+  margin:1.2em 0;
+
+/* h1 font change temporary */
+    color: #333333;
+    font-size: 33px;
+}
+.product-font{
+font-size: 16px;
+}
+.product-description{
+    margin-bottom: 15px;
+    font-family: helvetica,arial,sans-serif;
+    letter-spacing: 0.04rem;
+    color: #707070;
+  padding-top: -12px;
 }
 
-.responsive{
-width: 38vw;
-}
-.product-info-h1 {
-  padding: 50px 0;
-  font-weight: 400;
-  text-align: center;
-}
-
-.product-info-p {
-  margin: 0 0 20px;
-  line-height: 1.5;
-  font-size: 16px;
-}
-
-.product-info-main {
-width: 1100px;
-  padding: 50px;
-  margin: 0 auto;
-  background: #fff;
-}
-
-.product-info-section {
-  display: none;
-  padding: 20px 0 0;
-  border-top: 1px solid #ddd;
-}
-
-.product-info-input {
-  display: none;
-}
-
-.product-info-label {
-  display: inline-block;
-  margin: 0 0 -1px;
-  padding: 15px 25px;
-  font-weight: 600;
-  text-align: center;
-  color: #bbb;
-  font-size: 17px;
-  border: 1px solid transparent;
-}
-
-.product-info-label:before {
-  font-family: fontawesome;
-  font-weight: normal;
-  margin-right: 10px;
-}
-
-.product-info-label[for*='1']:before { content: '\f1cb'; }
-.product-info-label[for*='2']:before { content: '\f17d'; }
-.product-info-label[for*='3']:before { content: '\f16b'; }
-.product-info-label[for*='4']:before { content: '\f1a9'; }
-
-.product-info-label:hover {
-  color: #888;
-  cursor: pointer;
-}
-
-.product-info-input:checked + .product-info-label {
-  color: #555;
-  border: 1px solid #ddd;
-  border-top: 2px solid orange;
-  border-bottom: 1px solid #fff;
-}
-
-#tab1:checked ~ #content1,
-#tab2:checked ~ #content2,
-#tab3:checked ~ #content3,
-#tab4:checked ~ #content4 {
-  display: block;
-}
-
-@media screen and (max-width: 650px) {
-  .product-info-label {
-    font-size: 0;
-  }
-  .product-info-label:before {
-    margin: 0;
-    font-size: 18px;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .product-info-label {
-    padding: 15px;
-  }
+.pd{
+/*   font-family: helvetica,arial,sans-serif;
+  color: rgb(28, 26, 26); */
+    font-family: helvetica,arial,sans-serif;
+    color: #1c1a1a;
+    font-weight: lighter;
+    padding-top: -14px;
+    margin-bottom: 21px;
 }
